@@ -15,6 +15,7 @@ public class LenPage {
 	public WebElement getLen() {
 		WebElement element = ElementsFarm.getElement("//*[@id='../Stock/LendList_DBC_New.aspx']");
 		return element;
+		// 注释
 	}
 
 	// 新增借货单
